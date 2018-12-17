@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">		
+		<title>Document</title>
+        <script src="js/script.js" async></script>
+	</head>
+
+	<body>
+		<h1 id='hadder'>Реєстрація користувача</h1>
+		
+		<form id='frm'> 
+			Ім'я:					
+						<br><input type='text' id='name'><br>
+						<pre id='inf_name'></pre>
+			Прізвище:	
+						<br><input type='text' id='surname'><br>
+						<pre id='inf_surname'></pre>
+			Нікнейм: *	
+						<br><input type='text' id='nickname'><br>
+						<pre id='inf_nickname'></pre>
+			Вік (повних років):		
+						<br><input type='text' id='age'><br>
+						<pre id='inf_age'></pre>
+			Ваш бал Ielts(English) (формату 1.0):	
+						<br><input type='text' id='ielts'><br>
+						<pre id='inf_ielts'></pre>
+			Дата народження (формату ДД.ММ.РРРР):
+						<br><input type='text' id='dateOfBirth'><br>
+						<pre id='inf_dateOfBirth'></pre>
+			E-mail: *	
+						<br><input type='text' id='mail'><br>
+						<pre id='inf_mail'></pre>
+			Пароль: (Має бути присутня хоча б одна велика та маленька літери латиниці та хоча б одна цифра)*	
+						<br><input type='text' id='pasword'><br>
+						<pre id='inf_pasword'></pre>
+			Підтвердіть пароль: *
+						<br><input type='text' id='checkPasword'><br>
+						<pre id='inf_checkPasword'></pre>
+			* - поля для обов'язкового вводу
+				<p id='informat'></p>
+			<input type="button" class="validateBtn" OnClick="myFunction()" value="Зареєструватися">
+			<a class="linkButton" href="/data">Збрежені користувачі</a>
+        </form>
+	</body>
+</html>
